@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051386340163",
+    "project_id": "authenticationapp-fda8b",
+    "storage_bucket": "authenticationapp-fda8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051386340163:android:1f9b8869981103b9b885f6",
+        "android_client_info": {
+          "package_name": "com.example.authenticationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvNaaKbz9LZ1ZERt68uU_1Ltt1xWZIQCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
