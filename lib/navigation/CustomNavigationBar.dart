@@ -1,3 +1,4 @@
+import 'package:authenticationapp/home/add_meal_page.dart';
 import 'package:authenticationapp/home/home_page.dart';
 import 'package:authenticationapp/home/orders_page.dart';
 import 'package:flutter/material.dart';
@@ -78,6 +79,20 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
         );
         break;
       case 2:
+        Navigator.pushReplacement(
+          context,
+          PageRouteBuilder(
+            pageBuilder: (_, __, ___) => AddMealWidget(
+              categoryId: '1',
+            ),
+            transitionsBuilder: (_, animation, __, child) {
+              return FadeTransition(
+                opacity: animation,
+                child: child,
+              );
+            },
+          ),
+        );
         break;
       case 3:
         break;

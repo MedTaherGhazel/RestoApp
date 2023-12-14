@@ -33,9 +33,6 @@ class MealItem {
       imageMeal: json['strImageSource'] ?? '',
       instruMeal: json['strInstructions'] ?? '',
       priceMeal: json['strPrice'] ?? '',
-
-
-
     );
   }
 }

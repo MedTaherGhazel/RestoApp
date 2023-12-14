@@ -15,7 +15,7 @@ class AppTheme {
   static const Color indicatorInactiveColor = Color(0xff53585C);
   static const Color indicatorActiveColor = Color(0xffCE7943);
   static TextStyle introtile = GoogleFonts.roboto(
-    color: Colors.white,
+    color: const Color.fromARGB(255, 0, 0, 0),
     fontSize: 30,
     fontWeight: FontWeight.bold,
   );
@@ -28,19 +28,19 @@ class AppTheme {
   // Reviews Ratings
   static const Color reviewIconColor = Color(0xffD98046);
   static TextStyle reviewRatting = GoogleFonts.roboto(
-    color: Colors.white,
+    color: const Color.fromARGB(255, 0, 0, 0),
     fontSize: 13,
     fontWeight: FontWeight.w400,
   );
 
   // Style
   static TextStyle tileLarge = GoogleFonts.roboto(
-    color: Colors.white,
+    color: const Color.fromARGB(255, 0, 0, 0),
     fontSize: 30,
     fontWeight: FontWeight.bold,
   );
   static TextStyle subtileLarge = GoogleFonts.roboto(
-    color: Colors.white,
+    color: const Color.fromARGB(255, 0, 0, 0),
     fontSize: 18,
     fontWeight: FontWeight.bold,
   );
